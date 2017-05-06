@@ -3,7 +3,6 @@
 connectionThread::connectionThread(qintptr socketDescriptor, QObject *parent) : QThread(parent)
 {
 	this->socketDescriptor = socketDescriptor;
-
 }
 
 void connectionThread::run()

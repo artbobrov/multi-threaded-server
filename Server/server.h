@@ -6,6 +6,7 @@
 #include <QTcpServer>
 #include <QThread>
 #include "connectionthread.h"
+
 class server : public QTcpServer
 {
 		Q_OBJECT
@@ -15,10 +16,6 @@ class server : public QTcpServer
 
 	protected:
 		void incomingConnection (qintptr socketDescriptor);
-
-	signals:
-
-	public slots:
 };
 
 #endif // SERVER_H
