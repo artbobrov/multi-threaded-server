@@ -12,6 +12,7 @@ class server : public QTcpServer
 		Q_OBJECT
 	public:
 		explicit server(QObject *parent = 0);
+
 		void start();
 
 	protected:
