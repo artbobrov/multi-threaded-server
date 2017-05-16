@@ -27,3 +27,10 @@
 *.exe
 *.out
 *.app
+build-Server-Desktop-Debug/.qmake.stash
+build-Server-Desktop-Debug/Makefile
+build-Server-Desktop-Debug/moc_connectionthread.cpp
+build-Server-Desktop-Debug/moc_predefs.h
+build-Server-Desktop-Debug/moc_server.cpp
+build-Server-Desktop-Debug/Server
+Server/Server.pro.user
